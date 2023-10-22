@@ -16,7 +16,7 @@
 
 
 body{
-    background-color: #fafafa;
+    background-color: #f4f1de;
     background-size: cover;
     background-attachment: fixed;
     color: #505050; 
@@ -28,18 +28,18 @@ body{
     width: 1000px;
 }
 
-a{color: #b8860b; text-decoration:none;}
+a{color: #df7a5e; text-decoration:none;}
 a.current{color: #52739e;}
-a.current:hover{color: #e82945;}
-a:hover{color: #b2132e;}
-a:active{color: #e82945;}
-h1,h2,h3,h4{clear:left; color: #813c54; margin:1.5em 0em 1em 0em; font-family:'Roboto Slab',serif; text-shadow: 1px 1px 2px #d0d0d0;}
+a.current:hover{color: #df7a5e;}
+a:hover{color: #82b29a;}
+a:active{color: #df7a5e;}
+h1,h2,h3,h4{clear:left; color: #52739e; margin:1.5em 0em 1em 0em; font-family:'Roboto Slab',serif; text-shadow: 1px 1px 2px #52739e;}
 h1{font-size:2.67em;}
 h2{font-size:2.00em;}
 h3{font-size:1.67em;}
 h4{font-size:1.33em;}
 p{list-style:none; margin:24px auto 24px auto; padding:0px; width:900px; text-align:left;}
-li a, p a {text-decoration:underline; text-decoration-color:#b8860b;}
+li a, p a {text-decoration:underline; text-decoration-color:#df7a5e;}
 ul{list-style:none; margin:24px auto 24px auto; padding:0px; width:800px; text-align:left;}
 ul li{list-style:none; margin:0px auto 0px auto; padding:0px; text-align:left;}
 i,em{font-style:italic;}
@@ -69,12 +69,12 @@ th,td{
 
 /* Website Banner */
 .banner {position: relative; font-family:'Roboto Slab',serif;}
-.top-left {font-size:5.33em; color: #505050; background: #fafafa; text-align: center; width: 1000px; height: 67px; position: absolute; padding: 36px 0 0 0; top: 0px;}
-.bottom-right {font-size:2.33em; color: #fafafa; line-height: 1.5em; width: auto; height: 100px; padding: 0px 27px 27px 0px; text-align: right; position: absolute; bottom: 0px; right: 0px; text-shadow: 0px 0px 6px #000000;}
+.top-left {font-size:5.33em; color: #505050; background: #f4f1de; text-align: center; width: 1000px; height: 67px; position: absolute; padding: 36px 0 0 0; top: 0px;}
+.bottom-right {font-size:2.33em; color: #f4f1de; line-height: 1.5em; width: auto; height: 100px; padding: 0px 27px 27px 0px; text-align: right; position: absolute; bottom: 0px; right: 0px; text-shadow: 0px 0px 6px #000000;}
 
 /* Conference Title Logo */
-.title1{color: #b2132e; text-shadow: 1px 1px 3px #c0c0c0;} 
-.title2{color: #52739e; text-shadow: 1px 1px 3px #c0c0c0;}
+.title1{color: #df7a5e; text-shadow: 1px 1px 3px #3c405b;} 
+.title2{color: #3c405b; text-shadow: 1px 1px 3px #3c405b;}
 .year{color: #505050; font-size:0.67em; font-weight: lighter;}
 
 /* Navigation Links (Home, Registration, etc) */
@@ -84,7 +84,7 @@ td.navigation{font-size:1.67em; white-space:nowrap; width:20%; text-align:center
 /* Sponsor Images */
 table.sponsors{width:800px;}
 td.sponsor{white-space:nowrap; width:33%; text-align:center; vertical-align:middle; padding:0px 0px 0px 0px;}
-td.sponsor img{width: 100%}
+td.sponsor img{width: 100% ;  border-radius: 15%;}
 
 /* The Table on the Program Page */
 td.room{padding: 4px 12px 4px 4px; width: 90%; vertical-align:bottom; font-size:1.67em; color: #52739e; height:32px;}
