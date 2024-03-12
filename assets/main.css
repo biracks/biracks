@@ -75,7 +75,7 @@ th,td{
 /* Conference Title Logo */
 .title1{color: #df7a5e; text-shadow: 1px 1px 3px #3c405b;} 
 .title2{color: #3c405b; text-shadow: 1px 1px 3px #3c405b;}
-.year{color: #505050; font-size:0.67em; font-weight: lighter;}
+.year{color: #3c405bd6; font-size:0.4em; font-weight: lighter;}
 
 /* Navigation Links (Home, Registration, etc) */
 table.navigation{width:800px;}
